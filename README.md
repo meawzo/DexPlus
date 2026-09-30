@@ -1,13 +1,4 @@
 
-body{font-family:system-ui,-apple-system,sans-serif;max-width:720px;margin:2rem auto;padding:0 1.25rem;line-height:1.55;color:#1a1a1a;background:#fafafa}
-h1{font-size:1.75rem;margin-bottom:.25rem}
-h2{font-size:1.2rem;margin-top:2rem;border-bottom:1px solid #ddd;padding-bottom:.3rem}
-code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.9em}
-pre{background:#111;color:#e8e8e8;padding:1rem;overflow-x:auto;border-radius:6px}
-.tag{display:inline-block;background:#e8f0fe;color:#1a56db;font-size:.75rem;padding:.15rem .5rem;border-radius:4px;margin-right:.4rem}
-footer{margin-top:3rem;font-size:.85rem;color:#666}
-a{color:#1a56db}
-</style>
 </head>
 <body>
 <h1>Roblox Decal Asset Catalog</h1>
