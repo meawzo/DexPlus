@@ -32,13 +32,12 @@ local uri   = DecalCatalog.GetAssetUri(hits[1].id)</pre>
 
 <h2>Files</h2>
 <ul>
-<li><code>DecalCatalog.lua</code> — the module (no comments)</li>
-<li><code>README.md</code> — usage and API reference</li>
-<li><code>index.html</code> — this page</li>
+<li><code>DecalCatalog.lua</code> — the module</li>
+<li><code>README.md</code> — this page
 </ul>
 
 <h2>License</h2>
-<p>MIT. Fully open source. Use it, fork it, ship it.</p>
+<p>MIT. fully open source. use it, fork it, ship it.</p>
 
 <footer>
 Roblox Decal Asset Catalog — pure Lua helper for free library decals.
