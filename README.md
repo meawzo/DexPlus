@@ -10,7 +10,6 @@ MIT License.
 |------|-------------|
 | `DecalCatalog.lua` | Module API for free-decal search / info / thumbnails |
 | `DecalCatalogUI.lua` | In-game UI (executor script) with search, pages, copy |
-| `index.html` | Short web overview of the project |
 
 ## Features
 
