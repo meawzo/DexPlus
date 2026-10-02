@@ -20,13 +20,9 @@ MIT License.
 - Batch enrich helpers
 
 ### UI (`DecalCatalogUI.lua`)
-- Search bar with Lucide-style icons
-- Result cards (thumbnail, name, asset id)
-- Copy asset id to clipboard
-- Pagination (up to 512 pages)
-- Draggable window, smooth open animation
-- Compact minimize (title bar only)
-- Animated stroke gradients
+- Contains all LUA modules combined
+- Has all the handwork btw in only one
+- Source full with API, Search, copy, minimize, maximize, 512 pages to check decals.
 
 ## Requirements
 
