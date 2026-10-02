@@ -8,10 +8,12 @@ local CoreGui = game:GetService("CoreGui")
 
 local LP = Players.LocalPlayer
 local MAX_PAGES = 512
-local LEFT_ICON = "rbxassetid://10709762574"
-local RIGHT_ICON = "rbxassetid://10709762727"
+local LEFT_ICON = "rbxassetid://10709768114"
+local RIGHT_ICON = "rbxassetid://10709768347"
 local TITLE_ICON = "rbxassetid://10723424505"
 local COPY_ICON = "rbxassetid://10709812159"
+local MIN_ICON = "rbxassetid://10734953073"
+local MAX_ICON = "rbxassetid://10723346553"
 
 local function httpGet(url)
 	local body
@@ -116,10 +118,10 @@ local STROKE_CS = ColorSequence.new({
 	ColorSequenceKeypoint.new(1,    Color3.fromRGB(25, 25, 28)),
 })
 
-local YELLOW_CS = ColorSequence.new({
-	ColorSequenceKeypoint.new(0,   Color3.fromRGB(160, 120, 10)),
-	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 220, 50)),
-	ColorSequenceKeypoint.new(1,   Color3.fromRGB(160, 120, 10)),
+local WHITE_CS = ColorSequence.new({
+	ColorSequenceKeypoint.new(0,   Color3.fromRGB(40, 40, 45)),
+	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
+	ColorSequenceKeypoint.new(1,   Color3.fromRGB(40, 40, 45)),
 })
 
 local allGrads = {}
@@ -229,9 +231,6 @@ content.BackgroundTransparency = 1
 content.BorderSizePixel = 0
 content.ClipsDescendants = true
 content.Parent = main
-
-local MIN_ICON = "rbxassetid://10734953073"
-local MAX_ICON = "rbxassetid://10723346553"
 
 local minimized = false
 local minBtn = Instance.new("ImageButton")
@@ -371,7 +370,7 @@ prevBtn.ScaleType = Enum.ScaleType.Fit
 prevBtn.AutoButtonColor = false
 prevBtn.Parent = nav
 Instance.new("UICorner", prevBtn).CornerRadius = UDim.new(0, 4)
-animStroke(prevBtn, 1, YELLOW_CS)
+animStroke(prevBtn, 1, WHITE_CS)
 
 local pageLbl = Instance.new("TextLabel")
 pageLbl.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -395,7 +394,7 @@ nextBtn.ScaleType = Enum.ScaleType.Fit
 nextBtn.AutoButtonColor = false
 nextBtn.Parent = nav
 Instance.new("UICorner", nextBtn).CornerRadius = UDim.new(0, 4)
-animStroke(nextBtn, 1, YELLOW_CS)
+animStroke(nextBtn, 1, WHITE_CS)
 
 do
 	local dragging, dragStart, startPos = false, nil, nil
